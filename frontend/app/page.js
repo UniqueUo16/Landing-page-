@@ -119,7 +119,7 @@ export default function HeroSection() {
                 “The best creative newsletter I’ve read all year.”
               </span>
             </div>
-            <span className="absolute bottom-[-2rem] left-0 w-full bg-amber-700 text-white text-sm py-2 rounded-b-md text-center font-medium">
+            <span className="absolute p-3 left-0 w-full bg-amber-700 text-white mt-44 text-sm  rounded-b-md text-center font-medium">
               Try For Free Today
             </span>
           </motion.div>

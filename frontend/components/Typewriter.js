@@ -40,7 +40,7 @@ export default function TypewriterText() {
 
   return (
     <motion.div
-      className="text-black text-xl mt-6 sm:text-2xl md:text-3xl font-mono tracking-wide text-center md:text-left"
+      className="text-black text-[0.8rem] mt-6 sm:text-xl md:text-2xl font-mono tracking-wide text-center md:text-left"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
