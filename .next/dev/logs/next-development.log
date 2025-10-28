@@ -1,0 +1,6769 @@
+[00:00:05.758] Server  LOG      ✓ Ready in 4.2s
+[00:00:08.849] Server  LOG      ○ Compiling / ...
+[00:00:23.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.123] Server  ERROR    ⨯ The requested resource "https://placehold.co/600x800" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+[00:02:41.588] Server  LOG      ✓ Compiled in 462ms
+[00:03:01.341] Server  LOG      ✓ Compiled in 163ms
+[00:03:20.082] Server  LOG      ✓ Compiled in 189ms
+[00:03:37.320] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:03:39.553] Server  ERROR    ⨯ Error: The default export is not a React Component in "/page"
+[00:03:42.711] Server  LOG      ○ Compiling /_error ...
+[00:03:42.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:44.109] Server  ERROR    ⨯ The requested resource "https://placehold.co/600x800" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+[00:03:44.494] Browser WARN    Image with src "https://placehold.co/600x800" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:45.974] Server  LOG      ✓ Compiled in 6.2s
+[00:03:46.076] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:46.506] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:51.395] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:03:51.407] Server  ERROR   TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.410] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[00:03:51.414] Server  ERROR   TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.430] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.441] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.456] Server  ERROR   TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.460] Server  ERROR    ⨯ "unhandledRejection:" TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:51.473] Server  ERROR    ⨯ "unhandledRejection: " TypeError: Cannot read properties of null (reading 'useInsertionEffect')
+[00:03:52.719] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.719] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.720] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.720] Browser ERROR   ./src/app/page.tsx:19:1
+Parsing ecmascript source code failed
+  17 |
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.850] Browser ERROR   ./src/app/page.tsx:15:10
+Parsing ecmascript source code failed
+  13 |   }, []);
+  14 |
+> 15 |   return (
+     |          ^
+> 16 |     
+     | ^^^^
+> 17 |   );
+     | ^^^^
+  18 | }
+  19 |
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:03:52.850] Browser ERROR   ./src/app/page.tsx:15:10
+Parsing ecmascript source code failed
+  13 |   }, []);
+  14 |
+> 15 |   return (
+     |          ^
+> 16 |     
+     | ^^^^
+> 17 |   );
+     | ^^^^
+  18 | }
+  19 |
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:04:05.893] Server  LOG      ✓ Compiled in 70ms
+[00:04:17.114] Server  LOG      ✓ Compiled in 123ms
+[00:04:22.289] Server  LOG      ✓ Compiled in 178ms
+[00:05:00.694] Server  ERROR    ⨯ The requested resource "https://placehold.co/600x800" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+[00:07:45.748] Server  LOG      ✓ Compiled in 146ms
+[00:14:00.481] Server  LOG      ✓ Compiled in 110ms
+[00:14:00.666] Browser ERROR   uncaughtError: ReferenceError: Navbar is not defined
+[00:14:08.599] Server  LOG      ✓ Compiled in 63ms
+[00:14:08.712] Browser ERROR   ./src/app/page.tsx:4:1
+Parsing ecmascript source code failed
+  2 |
+  3 | import Nav
+> 4 | export default function Home() {
+    | ^^^^^^
+  5 |
+  6 |
+  7 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:14:11.658] Browser ERROR   ./src/app/page.tsx:4:1
+Parsing ecmascript source code failed
+  2 |
+  3 | import Navba
+> 4 | export default function Home() {
+    | ^^^^^^
+  5 |
+  6 |
+  7 |   return (
+
+Expected ',', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:14:15.458] Browser ERROR   ./src/app/page.tsx:4:1
+Parsing ecmascript source code failed
+  2 |
+  3 | import Navbar from 
+> 4 | export default function Home() {
+    | ^^^^^^
+  5 |
+  6 |
+  7 |   return (
+
+Unexpected token `export`. Expected a string literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:14:21.012] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.019] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.023] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.027] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.033] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.044] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.048] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.053] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.059] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.064] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.070] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.102] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.109] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.114] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.118] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.122] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.137] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.142] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.149] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.153] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.158] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.163] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.189] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.201] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.220] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.229] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.257] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.271] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.277] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.283] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.287] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.291] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.298] Server  LOG      ✓ Compiled in 4s
+[00:14:21.414] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '././'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "././"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:23.006] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.013] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.016] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.020] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.026] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.031] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.035] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.043] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.051] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.055] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.058] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.064] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.072] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.077] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.082] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.085] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.090] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.102] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.114] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.117] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.124] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.136] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.139] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.152] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.158] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.168] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.174] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.183] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.189] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.199] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.204] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.215] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.336] Server  LOG      ✓ Compiled in 126ms
+[00:14:23.369] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:24.319] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.326] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.337] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.394] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.417] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.422] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.430] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.434] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.439] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.442] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.445] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.456] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.464] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.471] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.474] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.477] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.483] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.491] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.495] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.501] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.516] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.533] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.539] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.542] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.552] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.555] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.561] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.572] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.694] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.828] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.842] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.850] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:24.854] Server  LOG      ✓ Compiled in 320ms
+[00:14:24.963] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '../app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "../app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:26.130] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.137] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.140] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.143] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.148] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.159] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.182] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.205] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.211] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.221] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.224] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.228] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.234] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.238] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.241] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.250] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.255] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.260] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.269] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.281] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.285] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.288] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.297] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.299] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.302] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.314] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.317] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.328] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.333] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.340] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.343] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.345] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:26.348] Server  LOG      ✓ Compiled in 134ms
+[00:14:26.461] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve ''
+  1 | "use client";
+  2 |
+> 3 | import Navbar from ""
+    | ^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:28.364] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.371] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.374] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.377] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.396] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.407] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.421] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.428] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.434] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.437] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.440] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.449] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.455] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.466] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.470] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.473] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.480] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.483] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.485] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.489] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.493] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.495] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.498] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.501] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.512] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.516] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.520] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.523] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.528] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.532] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.541] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.544] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:28.549] Server  LOG      ✓ Compiled in 158ms
+[00:14:28.682] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:29.348] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.353] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.356] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.358] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.362] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.364] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.367] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.369] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.372] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.377] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.384] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.386] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.392] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.395] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.398] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.401] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.404] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.412] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.416] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.418] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.428] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.431] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.434] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.438] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.441] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.444] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.446] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.449] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.459] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.461] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.465] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.468] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:29.470] Server  LOG      ✓ Compiled in 109ms
+[00:14:29.581] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:37.154] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.162] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.167] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.170] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.181] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.185] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.187] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.191] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.198] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.202] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.204] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.210] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.214] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.216] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.219] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.235] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.239] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.241] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.244] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.247] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.256] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.268] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.271] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.273] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.280] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.283] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.295] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.305] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.309] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.317] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.323] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.325] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:37.327] Server  LOG      ✓ Compiled in 161ms
+[00:14:37.441] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:38.356] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.361] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.363] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.365] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.371] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.378] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.382] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.385] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.389] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.391] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.393] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.396] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.399] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.408] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.411] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.414] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.424] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.426] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.428] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.431] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.441] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.445] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.449] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.453] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.457] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.459] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.463] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.471] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.476] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.481] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.484] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.487] Server  ERROR    ⨯ ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:38.489] Server  LOG      ✓ Compiled in 134ms
+[00:14:38.622] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:48.190] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:54.199] Browser ERROR   ./src/app/page.tsx:3:1
+Module not found: Can't resolve '@/app/'
+  1 | "use client";
+  2 |
+> 3 | import Navbar from "@/app/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export default function Home() {
+  5 |
+  6 |
+
+Import map: aliased to relative './src/app/' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:57.747] Server  LOG      ✓ Compiled in 950ms
+[00:14:58.418] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:14:58.419] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:14:59.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:59.336] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:15:00.355] Server  LOG      ✓ Compiled in 120ms
+[00:15:21.032] Server  LOG      ✓ Compiled in 178ms
+[00:15:21.040] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cl cl true cl
+[00:15:26.707] Server  LOG      ✓ Compiled in 206ms
+[00:15:36.468] Server  LOG      ✓ Compiled in 146ms
+[00:15:41.374] Server  LOG      ✓ Compiled in 114ms
+[00:16:35.331] Server  LOG      ✓ Compiled in 138ms
+[00:16:37.150] Server  LOG      ✓ Compiled in 160ms
+[00:16:40.852] Server  LOG      ✓ Compiled in 104ms
+[00:16:43.414] Server  LOG      ✓ Compiled in 78ms
+[00:16:51.570] Server  LOG      ✓ Compiled in 88ms
+[00:16:55.542] Server  LOG      ✓ Compiled in 444ms
+[00:16:55.660] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\User\documents\ajagunla-team\ajagunla-landing\src\app\globals.css:1:1: Unknown word impo
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:16:59.613] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: C:\Users\User\documents\ajagunla-team\ajagunla-landing\src\app\globals.css:1:1: Unknown word import
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[00:17:54.181] Server  LOG      ✓ Compiled in 198ms
+[00:17:57.216] Server  LOG      ✓ Compiled in 183ms
