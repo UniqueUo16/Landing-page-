@@ -385,7 +385,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
   },
   {
     img: "/health1.webp",
-    title: "4. HealthCare & Wellness nfastructure",
+    title: "4. HealthCare & Wellness Infastructure",
     text: "Health outreach programs have brought medical aid, awareness campaigns, and essential services to underprivileged communities.",
   },
   {
