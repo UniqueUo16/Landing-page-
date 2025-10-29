@@ -80,22 +80,80 @@ export default function HeroSection() {
           </div>
 
           <div className="text-4xl sm:text-6xl lg:text-7xl font-light leading-tight text-black">
+<div className="text-center mt-24">
+      <motion.span
+        className="font-semibold text-3xl md:text-5xl block"
+        initial={{ x: -50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          duration: 0.8,
+        }}
+        viewport={{ once: true, amount: 0.5 }}
+      >
+        <motion.span
+        initial={{ x: 50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{amount: 0.105, once:false}}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          delay: 0.2,
+          duration: 0.8,
+        }}
+        className="uppercase text-amber-700">Creating a</motion.span> Better
+      </motion.span>
 
-            <span className="font-semibold">
-              <span className="uppercase text-amber-700">Creating a</span> Better
-            </span>
-            <br />
-            <span className="font-light">future</span>
-
+      <motion.span
+        className="font-light text-4xl md:text-6xl block text-gray-900"
+        initial={{ x: 50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{amount: 0.5, once:false}}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          delay: 0.2,
+          duration: 0.8,
+        }}
+      >
+        future
+      </motion.span>
+    </div>
           </div>
 
-          <p className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
+          <motion.p 
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{amount: 0.5, once:false}}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          delay: 0.2,
+          duration: 0.8,
+        }}
+          className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
           Discover the ideas, people, and purpose driving a new generation of leadership.
 Together, we’re shaping the future — one vision, one community, one tomorrow at a time.
-          </p>
+          </motion.p>
 
           <div className="flex items-center justify-center lg:justify-start gap-3 mt-4 ml-[-1rem]">
-            <div className="flex -space-x-4">
+            <motion.div 
+        initial={{ x: 50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{amount: 0.5, once:false}}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          delay: 0.2,
+          duration: 0.8,
+        }}
+            className="flex -space-x-4">
               <Image
                 src="/stud.jpg"
                 alt="Profile 1"
@@ -117,13 +175,24 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
                 height={60}
                 className="rounded-full border-2 border-white"
               />
-            </div>
+            </motion.div>
             <span className="text-sm text-gray-600 font-medium max-w-[180px]">
               🌐Trusted by 10K+ Followers Globaly.
             </span>
 
             <div className="text-black">
-              <div className="text-amber-700 ml-[-22rem] md:mt-[0rem] md:ml-[-12rem] sm:ml-18 mt-4 z-50 sm:mt-[-30rem] justify-start items-start flex absolute  gap-6 bg-white/80 shadow-lg shadow-amber-600 rounded-lg p-6">
+              <motion.div
+        initial={{ x:-80, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{amount: 0.5, once:false}}
+        transition={{
+          type: "spring",
+          stiffness: 60,
+          damping: 12,
+          delay: 0.2,
+          duration: 0.8,
+        }}
+              className="text-amber-700 ml-[-22rem] md:mt-[0rem] md:ml-[-12rem] sm:ml-18 mt-4 z-50 sm:mt-[-30rem] justify-start items-start flex absolute  gap-6 bg-white/80 shadow-lg shadow-amber-600 rounded-lg p-6">
                 {/* Statistic 1 */}
                 <div className="flex flex-col justify-start items-start">
                   <span className="text-3xl font-bold">3,847</span>
@@ -141,7 +210,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
                   <span className="text-3xl font-bold">₦2.1B</span>
                   <span className="text-sm md:text-base font-medium">Community Investment</span>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
 
