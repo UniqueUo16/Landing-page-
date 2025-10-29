@@ -279,7 +279,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
             alt="Hero Illustration"
             width={500}
             height={500}
-            className="rounded-full object-cover relative z-10"
+            className="rounded-full bg-[#2d2911ab] shadow-xl shadow-amber-300 object-cover  relative z-10"
           />
           
           <div className="relative w-full flex justify-center items-center">
