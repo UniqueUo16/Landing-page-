@@ -44,7 +44,7 @@ const comments = [
   {
     name: "Lara",
     text: "Truly inspiring and insightful content every week!",
-    img: "/it2.webp",
+    img: "/stud.jpg",
   },
   {
     name: "David",
@@ -97,7 +97,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
           <div className="flex items-center justify-center lg:justify-start gap-3 mt-4 ml-[-1rem]">
             <div className="flex -space-x-4">
               <Image
-                src="/it1.webp"
+                src="/stud.jpg"
                 alt="Profile 1"
                 width={100}
                 height={60}

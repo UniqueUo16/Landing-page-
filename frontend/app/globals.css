@@ -23,9 +23,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-
-   .blog1{
-    background-image: url("../public/it1.webp");
-   }
 }
 
