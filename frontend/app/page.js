@@ -7,6 +7,47 @@ import TypewriterText from "@/components/Typewriter";
 import Herotype from "@/components/hero-type";
 import { Facebook, Linkedin, Twitter, X } from "lucide-react";
 import { useState } from "react";
+import { Briefcase, Building, BookOpen, HeartPulse, Cpu } from "lucide-react";
+
+const initiatives = [
+  {
+    icon: <Briefcase size={40} />,
+    title: "Jobs & Training",
+    sub: "Empower Youth, Build Tomorrow",
+    desc: "Join initiatives creating jobs and skill opportunities for thousands.",
+    color: "from-amber-100 to-amber-300",
+  },
+  {
+    icon: <Building size={40} />,
+    title: "Roads & Infrastructure",
+    sub: "Connect Communities",
+    desc: "Help us build safer roads, bridges, and a better-connected Osun State.",
+    color: "from-blue-100 to-blue-300",
+  },
+  {
+    icon: <BookOpen size={40} />,
+    title: "Education",
+    sub: "Educate for the Future",
+    desc: "Support schools, scholarships, and digital learning for every child.",
+    color: "from-green-100 to-green-300",
+  },
+  {
+    icon: <HeartPulse size={40} />,
+    title: "Healthcare",
+    sub: "Healthy People, Stronger Nation",
+    desc: "Be part of improving access to affordable, quality healthcare.",
+    color: "from-rose-100 to-rose-300",
+  },
+  {
+    icon: <Cpu size={40} />,
+    title: "Tech & Innovation",
+    sub: "Drive Digital Growth",
+    desc: "Partner with us to nurture startups, innovation hubs, and smart solutions.",
+    color: "from-purple-100 to-purple-300",
+  },
+];
+
+
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -62,7 +103,7 @@ export default function HeroSection() {
     setCurrent((prev) => (prev - 1 + comments.length) % comments.length);
 
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className={`${montserrat.className} relative overflow-hidden bg-white`}>
       {/* ===== HERO SECTION ===== */}
       <section
         className={`${montserrat.className} flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-16 lg:py-24`}
@@ -262,7 +303,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
                   <span className="text-sm text-gray-700 leading-snug">{comment.text}</span>
                 </div>
                 <span className="absolute p-3 left-0 w-full bg-amber-700 text-white mt-44 text-sm rounded-b-md text-center font-medium">
-                  Try For Free Today
+                  See opportunities
                 </span>
               </motion.div>
             ))}
@@ -343,7 +384,12 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
     text: "Thousands of youths now have meaningful employment opportunities through programs initiated under the campaign, reducing unemployment in local communities.",
   },
   {
-    img: "/vb3.gif",
+    img: "/health1.webp",
+    title: "4. HealthCare & Wellness nfastructure",
+    text: "Health outreach programs have brought medical aid, awareness campaigns, and essential services to underprivileged communities.",
+  },
+  {
+    img: "/skill.jpg",
     title: "2. Creative Empowerment",
     text: "Young innovators and creators are receiving mentorship and resources, helping them turn ideas into impactful projects that benefit society.",
   },
@@ -351,11 +397,6 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
     img: "/edu.jpg",
     title: "3. Sustained Education Access",
     text: "Scholarship schemes and educational initiatives have enabled students to continue learning, reducing dropout rates and nurturing future leaders.",
-  },
-  {
-    img: "/c3.jpg",
-    title: "4. Health & Wellness Improvements",
-    text: "Health outreach programs have brought medical aid, awareness campaigns, and essential services to underprivileged communities.",
   },
   {
     img: "/emp.jpg",
@@ -408,6 +449,39 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
 </section>
 
 
+    <section className="py-24 text-gray-900 ">
+      <motion.h2
+        className="text-center text-4xl font-bold text-gray-900 mb-12"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+      >
+        How Do You Want to Participate?
+      </motion.h2>
+
+      <div className="grid bg-white md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 md:px-16">
+        {initiatives.map((item, i) => (
+          <motion.div
+            key={item.title}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: i * 0.15 }}
+            viewport={{ once: true }}
+            whileHover={{ scale: 1.05, y: -6 }}
+            className={`rounded-2xl p-6 shadow-lg bg-[amber] ${item.color} transition-all cursor-pointer hover:shadow-amber-300/40`}
+          >
+            <div className="text-amber-700 mb-3">{item.icon}</div>
+            <h3 className="text-xl font-semibold mb-1">{item.sub}</h3>
+            <p className="text-gray-700 text-sm leading-relaxed">{item.desc}</p>
+          </motion.div>
+        ))}
+      </div>
+        <a href="/" className="p-3 m-3 rounded-full bg-white/10 backdrop-blur-lg border border-amber-300  text-amber-700 flex justify-center text-center items-center">Participate</a>
+    </section>
+
+
+
 
     <section className="flex justify-center py-16 bg-gradient-to-r from-amber-900 via-amber-800 to-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-11/12 max-w-6xl">
@@ -448,7 +522,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
         ))}
 
         <span className="flex justify-center items-center col-span-full m-7 bg-white/20 text-amber-400 p-5 text-lg font-semibold rounded-lg shadow-lg backdrop-blur-md">
-          Join
+          Join The Campaign
         </span>
       </div>
     </section>
@@ -514,6 +588,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
    
 
 
+
       {/* ===== FAQ ===== */}
       <section className="blog1 bg-gray-50 bg-cover text-black py-20 px-6 md:px-16 flex flex-col items-center">
         <motion.h2
@@ -565,6 +640,9 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
         </div>
       </section>
 
+
+
+
       {/* ===== ENHANCED FOOTER ===== */}
       <footer className={`${montserrat.className} relative bg-gray-900 text-white py-16 px-6 md:px-16 justify-center items-center text-center`}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16">
@@ -577,11 +655,10 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
             className="flex flex-col items-center md:items-start"
           >
             <h3 className="text-3xl font-bold tracking-wide">
-              Adeyemi<span className="text-amber-300">.</span>
+              Mr. Senator Adeyemi Campaign 2027<span className="text-amber-300">.</span>
             </h3>
             <p className="text-amber-200 text-sm mt-3 leading-relaxed max-w-xs">
-              Creating stories, one newsletter at a time.
-              Your daily dose of creative energy and digital insight.
+             Empowering , And Creating Better Tomorrow & Infastructre
             </p>
             <div className="flex gap-4 mt-6 text-xl">
               <a href="#" className="hover:text-amber-300 transition-colors"><Linkedin /></a>
@@ -625,7 +702,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
               <li><a href="#" className="hover:text-white">Case Studies</a></li>
               <li><a href="#" className="hover:text-white">Press Kit</a></li>
               <li><a href="#" className="hover:text-white">Partner Program</a></li>
-              <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-white"><u>Privacy Policy | NDPR Compliant</u></a></li>
             </ul>
           </motion.div>
 
@@ -646,7 +723,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
               <input
                 type="email"
                 placeholder="Your Email"
-                className="flex-1 p-3 rounded-l-lg text-black focus:outline-none"
+                className="flex-1 p-3 rounded-l-lg text-white focus:outline-none"
               />
               <button
                 type="submit"
@@ -661,7 +738,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
         {/* === Bottom Bar === */}
         <div className="border-t border-amber-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-amber-200">
           <p>© {new Date().getFullYear()} Adeyemi. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Built with ❤️ by Adeyemi Studio Unique Uo</p>
+          <p className="mt-2 md:mt-0">Built with  by Adeyemi Studio Unique Uo</p>
         </div>
 
         {/* === Subtle Glow Effect === */}
