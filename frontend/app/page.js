@@ -492,7 +492,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: i * 0.2 }}
             whileHover={{ scale: 1.05, rotate: -1 }}
-            className="bg-white/10  backdrop-blur-lg border border-white/20 shadow-xl rounded-2xl p-8 flex flex-col justify-between cursor-pointer h-[450px] hover:shadow-2xl transition-all duration-300"
+            className="bg-white/10  backdrop-blur-lg border border-white/20 shadow-xl rounded-2xl p-8 flex flex-col justify-between cursor-pointer h-[550px] hover:shadow-2xl transition-all duration-300"
           >
             <div>
               <h3 className="text-3xl font-semibold mb-4 text-amber-400">
@@ -501,7 +501,7 @@ Together, we’re shaping the future — one vision, one community, one tomorrow
                   alt="For icons"
                   width={55}
                   height={55}
-                  className="rounded-full border-2object-cover"
+                  className="rounded-full border-2 object-cover"
                 />{item.title} 
               </h3>
               <p className="text-gray-200 text-base leading-relaxed">
